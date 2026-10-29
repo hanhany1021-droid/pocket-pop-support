@@ -1,7 +1,7 @@
 # Project Context
 
-- Status: Active public support site for Pocket Pop 1.0
-- Last reviewed: 2026-08-27
+- Status: Active public support site for Popwrap; updated for the version 1.5 App Review submission, not an announcement of availability
+- Last reviewed: 2026-10-29
 
 ## Intent
 
@@ -22,14 +22,18 @@ Pocket Pop turns an iPhone into a small tactile toy inspired by the familiar sat
 - A static English landing page, privacy policy, and support page.
 - GitHub Issues is the public support intake mechanism.
 - GitHub Pages is the hosting mechanism.
-- Pocket Pop 1.0 is represented as offline and collecting no personal or usage data.
+- Classic play is free and runs offline on iPhone and iPad; settings and gameplay statistics stay on the device.
+- Version 1.5 adds optional one-time wood/metal purchases through Apple StoreKit, with two-bubble trials in all three modes. Prices, purchases and restores need internet access.
+- The developer does not collect app activity or receive Apple Account credentials or card details. Apple processes purchases; verified transactions are checked on the device, not uploaded to a developer server.
+- GitHub Issues is an external, potentially public service. Users must not include Apple IDs, receipts, payment details or other sensitive information.
+- The three pages identify material purchases as being prepared for version 1.5. No app upload, review approval or release is claimed by this site update.
 
 ## Boundaries
 
 - This repository does not contain the iOS source, signing material, reviewer contact details, user records, or private release artifacts.
 - Do not publish screenshots, logs, issue attachments, or diagnostics containing personal or sensitive information.
 - The privacy policy must never promise behavior that is not verified against the current app binary and third-party dependencies.
-- If the app adds accounts, networking, analytics, advertising, tracking, third-party SDKs, or new device permissions, update the app implementation review, App Store privacy answers, and this site together before release.
+- Review new or changed accounts, networking, payments, analytics, advertising, tracking, third-party SDKs or device permissions against the app implementation and App Store privacy answers before release. Apple-managed payments do not imply a developer-operated account or payment backend.
 
 ## Acceptance baseline
 
@@ -42,7 +46,7 @@ Pocket Pop turns an iPhone into a small tactile toy inspired by the familiar sat
 
 These are not measured results:
 
-- A short policy makes Pocket Pop's offline privacy boundary understandable.
+- A short policy makes the boundary between offline play and Apple-managed purchases understandable.
 - A structured issue prompt improves the usefulness of support reports.
 - Separating the public site from private source reduces accidental code disclosure.
 

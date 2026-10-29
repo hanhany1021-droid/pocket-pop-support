@@ -28,3 +28,12 @@ This log is append-only. If a decision changes, mark it superseded and add a new
 - Decision: Do not store such material here.
 - Reason: This minimizes privacy and disclosure risk and stays consistent with Pocket Pop's offline product boundary.
 - Consequences: Support diagnostics must be voluntarily provided through public issues with a warning not to include sensitive information.
+
+## D-004: Explain Apple-managed material purchases before the 1.5 review
+
+- Date: 2026-10-29
+- Status: Accepted
+- Context: Popwrap 1.5 adds optional non-consumable wood and metal materials. The former “completely offline” description no longer covers price loading, purchases or restores.
+- Decision: Keep classic gameplay free and offline. Explain that Apple handles optional one-time purchases and restores, that the developer does not receive Apple Account credentials or card details, and that verified ownership is checked on the device. Document the free two-bubble trial, separate/bundle purchases, no top-up offer and public-support privacy boundary.
+- Reason: Users and App Review need policy and support text that matches the submitted app without confusing Apple payment handling with developer data collection.
+- Consequences: Pages explicitly mark these purchase features as prepared for version 1.5 until availability is verified. Publication of support text is not evidence that the app is uploaded, approved or released. No app source, credentials or private review data are published.

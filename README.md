@@ -1,10 +1,10 @@
-# Pocket Pop Support
+# Popwrap Support
 
-Public privacy and support pages for Pocket Pop, an offline tactile bubble-wrap toy for iPhone.
+Public privacy and support pages for Popwrap, a tactile bubble-wrap toy for iPhone and iPad. Classic play is free and works offline. The version 1.5 material purchases described here are being prepared for App Review; publishing these support pages does not announce an app release.
 
 ## Live pages
 
-- [Pocket Pop support site](https://hanhany1021-droid.github.io/pocket-pop-support/)
+- [Popwrap support site](https://hanhany1021-droid.github.io/pocket-pop-support/)
 - [Privacy Policy](https://hanhany1021-droid.github.io/pocket-pop-support/privacy.html)
 - [Support](https://hanhany1021-droid.github.io/pocket-pop-support/support.html)
 

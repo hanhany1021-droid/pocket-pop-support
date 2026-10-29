@@ -3,15 +3,17 @@
 ## Verified baseline
 
 - [x] Static landing, privacy, and support pages exist.
-- [x] Policy states the Pocket Pop 1.0 no-data boundary.
+- [x] Policy distinguishes local gameplay from Apple-managed purchases and public GitHub support reports.
 - [x] Support reports route to a public GitHub issue tracker.
 - [x] Repository excludes the private iOS source and release credentials.
 
 ## Release readiness
 
 - [ ] Verify all GitHub Pages URLs from a signed-out browser session.
-- [ ] Add the live privacy and support URLs to App Store Connect.
-- [ ] Recheck the pages whenever an App Store version changes privacy or permissions.
+- [ ] Confirm that the version 1.5 App Store submission references the live privacy and support URLs.
+- [ ] Verify the Pages deployment and anonymous HTTP content after each policy update.
+- [ ] Remove the version 1.5 preparation notice only after App Store availability is verified.
+- [ ] Recheck the pages whenever an App Store version changes privacy, payments or permissions.
 
 ## Later operational improvements
 
